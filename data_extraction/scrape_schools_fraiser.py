@@ -83,7 +83,7 @@ def scrape_secondary_schools():
                 break
 
         # Save the combined data to a CSV file
-        all_data.to_csv("secondary_schools_combined.csv", index=False)
+        all_data.to_csv("data/csv/secondary_schools_combined.csv", index=False)
         print("All tables saved as 'secondary_schools_combined.csv'.")
 
         # Close the browser
