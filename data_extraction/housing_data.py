@@ -143,7 +143,7 @@ def page_through_and_extract(page):
     
         if not all_data.empty:
             try:
-                all_data.to_csv("extracted_houses_paginated.csv", index=False)
+                all_data.to_csv("extracted_houses_housesigma.csv", index=False)
             except Exception as e:
                 print(f"Error saving data to CSV: {e}")
         else:
@@ -195,7 +195,7 @@ def main():
         page.goto(url)
         login_to_site(page, PHONE_NUMBER, PASSWORD)
         # page_through_and_extract(page)
-        housing_data_df = pd.read_csv('house_data/extracted_houses_paginated.csv')
+        housing_data_df = pd.read_csv('house_data/extracted_houses_housesigma.csv')
         housing_data_df = housing_data_df[0:500]
         print(housing_data_df['link'])
         for link in housing_data_df['link']:
