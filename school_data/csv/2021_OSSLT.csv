@@ -1,254 +1,124 @@
-School Name,,,"Number of
-Previously
-Eligible
-Students",,,"Absent
-(All
-Previously
-Eligible
-Students)",,,"Deferred
-(All
-Previously
-Eligible
-Students)",,,,Taking,,"Number of
-Fully
-Participating
-Students",,,"Successful
-(Fully
-Participating)",,,"Not
-Successful
-(Fully
-Participating)",,
-School Name,,,"Number of
-Previously
-Eligible
-Students",,,"Absent
-(All
-Previously
-Eligible
-Students)",,,"Deferred
-(All
-Previously
-Eligible
-Students)",,,,Taking,,"Number of
-Fully
-Participating
-Students",,,"Successful
-(Fully
-Participating)",,,"Not
-Successful
-(Fully
-Participating)",,
-,,,,,,,,,,,,,OSSLC,,,,,,,,,,
-,,,,,,,,,,,,,(All,,,,,,,,,,
-,,,,,,,,,,,,,Previously,,,,,,,,,,
-,,,,,,,,,,,,,Eligible,,,,,,,,,,
-,,,,,,,,,,,,,Students),,,,,,,,,,
-,Province,,,148430,,,12%,,,2%,,,1%,,,127272,,,85%,,,15%,
-,TDSB,,,17669,,,9%,,,2%,,,1%,,,15454,,,85%,,,15%,
-A Y Jackson Secondary School,,,312,,,8%,,,0%,,,0%,,,286,,,88%,,,12%,,
-Agincourt Collegiate Institute,,,388,,,1%,,,<1%,,,0%,,,381,,,94%,,,6%,,
-Albert Campbell Collegiate Institute,,,261,,,4%,,,7%,,,<1%,,,231,,,88%,,,12%,,
-ALPHA II Alternative School (Sec),,,,N/R1,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,
-Alternative Scarborough Education 1,,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,
-Avondale Secondary Alternative School,,,19,,,16%,,,5%,,,0%,,,15,,,73%,,,27%,,
-Birchmount Park Collegiate Institute,,,169,,,22%,,,1%,,,1%,,,128,,,79%,,,21%,,
-Bloor Collegiate Institute,,,197,,,4%,,,0%,,,0%,,,189,,,94%,,,6%,,
-Burnhamthorpe Collegiate Institute,,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,
-C W Jefferys Collegiate Institute,,,255,,,36%,,,0%,,,<1%,,,163,,,72%,,,28%,,
-CALC Secondary School,,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,
-Cedarbrae Collegiate Institute,,,264,,,13%,,,0%,,,0%,,,226,,,76%,,,24%,,
-Central Technical School,,,231,,,19%,,,0%,,,3%,,,173,,,62%,,,38%,,
-Central Toronto Academy,,,230,,,4%,,,<1%,,,8%,,,202,,,86%,,,14%,,
-City School,,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,
-Contact Alternative School,,,12,,,8%,,,0%,,,0%,,,11,,,36%,,,64%,,
-Danforth Collegiate and Technical Institute,,,316,,,11%,,,0%,,,1%,,,271,,,79%,,,21%,,
-David and Mary Thomson Collegiate Institute,,,347,,,19%,,,0%,,,0%,,,282,,,70%,,,30%,,
-Delphi Secondary Alternative School,,,21,,,0%,,,10%,,,0%,,,19,,,100%,,,0%,,
-Don Mills Collegiate Institute,,,192,,,18%,,,0%,,,0%,,,157,,,92%,,,8%,,
 School Name,"Number of
 Previously
 Eligible
-Students",,,"Absent
+Students","Absent
 (All
 Previously
 Eligible
-Students)",,,"Deferred
+Students)","Deferred
 (All
 Previously
 Eligible
-Students)",,,,Taking,,"Number of
-Fully
-Participating
-Students",,,"Successful
+Students)","Successful
 (Fully
-Participating)",,,"Not
+Participating)","Not
 Successful
 (Fully
-Participating)",,,,
-,,,,,,,,,,,OSSLC,,,,,,,,,,,,
-,,,,,,,,,,,(All,,,,,,,,,,,,
-,,,,,,,,,,,Previously,,,,,,,,,,,,
-,,,,,,,,,,,Eligible,,,,,,,,,,,,
-,,,,,,,,,,,Students),,,,,,,,,,,,
-Downsview Secondary School,123,,,5%,,,15%,,,7%,,,87,,,59%,,,41%,,,,
-Dr Norman Bethune Collegiate Institute,276,,,2%,,,4%,,,0%,,,258,,,84%,,,16%,,,,
-Drewry Secondary School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Earl Haig Secondary School,527,,,6%,,,<1%,,,0%,,,492,,,92%,,,8%,,,,
-East York Alternative Secondary School,25,,,20%,,,40%,,,0%,,,10,,,40%,,,60%,,,,
-East York Collegiate Institute,311,,,5%,,,0%,,,<1%,,,295,,,82%,,,18%,,,,
-Eastdale Collegiate Institute,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Emery Collegiate Institute,138,,,10%,,,4%,,,0%,,,117,,,61%,,,39%,,,,
-Emery EdVance Secondary School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Etobicoke Collegiate Institute,306,,,4%,,,<1%,,,0%,,,293,,,92%,,,8%,,,,
-Etobicoke School of the Arts,234,,,5%,,,0%,,,0%,,,222,,,97%,,,3%,,,,
-Etobicoke Secondary Alternative School,16,,,19%,,,0%,,,0%,,,13,,,31%,,,69%,,,,
-Forest Hill Collegiate Institute,185,,,2%,,,1%,,,1%,,,178,,,91%,,,9%,,,,
-Frank Oke Secondary School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
+Participating)"
+A Y Jackson Secondary School,312,8%,0%,88%,12%
+Agincourt Collegiate Institute,388,1%,<1%,94%,6%
+Albert Campbell Collegiate Institute,261,4%,7%,88%,12%
+ALPHA II Alternative School (Sec),N/R1,N/R1,N/R1,N/R1,N/R1
+Alternative Scarborough Education 1,N/R,N/R,N/R,N/R,N/R
+Avondale Secondary Alternative School,19,16%,5%,73%,27%
+Birchmount Park Collegiate Institute,169,22%,1%,79%,21%
+Bloor Collegiate Institute,197,4%,0%,94%,6%
+Burnhamthorpe Collegiate Institute,N/R,N/R,N/R,N/R,N/R
+C W Jefferys Collegiate Institute,255,36%,0%,72%,28%
+CALC Secondary School,N/R,N/R,N/R,N/R,N/R
+Cedarbrae Collegiate Institute,264,13%,0%,76%,24%
+Central Technical School,231,19%,0%,62%,38%
+Central Toronto Academy,230,4%,<1%,86%,14%
+City School,N/R,N/R,N/R,N/R,N/R
+Contact Alternative School,12,8%,0%,36%,64%
+Danforth Collegiate and Technical Institute,316,11%,0%,79%,21%
+David and Mary Thomson Collegiate Institute,347,19%,0%,70%,30%
+Delphi Secondary Alternative School,21,0%,10%,100%,0%
+Don Mills Collegiate Institute,192,18%,0%,92%,8%
+Downsview Secondary School,123,123,123,123,123
+Dr Norman Bethune Collegiate Institute,276,276,276,276,276
+Drewry Secondary School,,,,,
+Earl Haig Secondary School,527,527,527,527,527
+East York Alternative Secondary School,25,25,25,25,25
+East York Collegiate Institute,311,311,311,311,311
+Eastdale Collegiate Institute,,,,,
+Emery Collegiate Institute,138,138,138,138,138
+Emery EdVance Secondary School,,,,,
+Etobicoke Collegiate Institute,306,306,306,306,306
+Etobicoke School of the Arts,234,234,234,234,234
+Etobicoke Secondary Alternative School,16,16,16,16,16
+Forest Hill Collegiate Institute,185,185,185,185,185
+Frank Oke Secondary School,,,,,
 "George Harvey Collegiate Institute
 (Consolidated to York Memorial CI from Sept.
-2022)",138,,,22%,,,11%,,,0%,,,87,,,55%,,,45%,,,,
-George S Henry Academy,107,,,29%,,,0%,,,3%,,,73,,,74%,,,26%,,,,
-Georges Vanier Secondary School,246,,,16%,,,7%,,,2%,,,185,,,81%,,,19%,,,,
-Greenwood Secondary School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Harbord Collegiate Institute,259,,,4%,,,0%,,,0%,,,248,,,98%,,,2%,,,,
-Heydon Park Secondary School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-School Name,"Number of
-Previously
-Eligible
-Students",,,"Absent
-(All
-Previously
-Eligible
-Students)",,,"Deferred
-(All
-Previously
-Eligible
-Students)",,,,Taking,,"Number of
-Fully
-Participating
-Students",,,"Successful
-(Fully
-Participating)",,,"Not
-Successful
-(Fully
-Participating)",,,,
-,,,,,,,,,,,OSSLC,,,,,,,,,,,,
-,,,,,,,,,,,(All,,,,,,,,,,,,
-,,,,,,,,,,,Previously,,,,,,,,,,,,
-,,,,,,,,,,,Eligible,,,,,,,,,,,,
-,,,,,,,,,,,Students),,,,,,,,,,,,
-Humberside Collegiate Institute,396,,,2%,,,0%,,,0%,,,387,,,95%,,,5%,,,,
-Inglenook Community School,15,,,27%,,,0%,,,0%,,,11,,,91%,,,9%,,,,
-Jarvis Collegiate Institute,130,,,5%,,,4%,,,0%,,,118,,,81%,,,19%,,,,
-John Polanyi Collegiate Institute,125,,,10%,,,0%,,,0%,,,112,,,79%,,,21%,,,,
+2022)",138,138,138,138,138
+George S Henry Academy,107,107,107,107,107
+Georges Vanier Secondary School,246,246,246,246,246
+Greenwood Secondary School,,,,,
+Harbord Collegiate Institute,259,259,259,259,259
+Heydon Park Secondary School,,,,,
+Humberside Collegiate Institute,396,396,396,396,396
+Inglenook Community School,15,15,15,15,15
+Jarvis Collegiate Institute,130,130,130,130,130
+John Polanyi Collegiate Institute,125,125,125,125,125
 "Kapapamahchakwew - Wandering Spirit
-School (Sec)",19,,,26%,,,0%,,,0%,,,14,,,71%,,,29%,,,,
-Kipling Collegiate Institute,171,,,11%,,,9%,,,0%,,,137,,,56%,,,44%,,,,
-Lakeshore Collegiate Institute,154,,,6%,,,3%,,,0%,,,140,,,74%,,,26%,,,,
-L'Amoreaux Collegiate Institute,124,,,20%,,,0%,,,0%,,,98,,,74%,,,26%,,,,
-Lawrence Park Collegiate Institute,313,,,3%,,,0%,,,0%,,,304,,,97%,,,3%,,,,
-Leaside High School,270,,,4%,,,0%,,,0%,,,260,,,98%,,,2%,,,,
-Lester B Pearson Collegiate Institute,294,,,7%,,,1%,,,0%,,,266,,,80%,,,20%,,,,
-Malvern Collegiate Institute,272,,,1%,,,1%,,,0%,,,266,,,98%,,,2%,,,,
-Maplewood High School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Marc Garneau Collegiate Institute,458,,,14%,,,1%,,,0%,,,389,,,77%,,,23%,,,,
-Martingrove Collegiate Institute,237,,,7%,,,0%,,,0%,,,221,,,90%,,,10%,,,,
-Monarch Park Collegiate Institute,215,,,8%,,,0%,,,0%,,,198,,,93%,,,7%,,,,
-Native Learning Centre East,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Newtonbrook Secondary School,196,,,13%,,,0%,,,0%,,,170,,,62%,,,38%,,,,
-North Albion Collegiate Institute,199,,,24%,,,0%,,,0%,,,151,,,75%,,,25%,,,,
-North Toronto Collegiate Institute,357,,,4%,,,1%,,,0%,,,339,,,97%,,,3%,,,,
-North West Secondary Alternative School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-School Name,"Number of
-Previously
-Eligible
-Students",,,"Absent
-(All
-Previously
-Eligible
-Students)",,,"Deferred
-(All
-Previously
-Eligible
-Students)",,,,Taking,,"Number of
-Fully
-Participating
-Students",,,"Successful
-(Fully
-Participating)",,,"Not
-Successful
-(Fully
-Participating)",,,,
-,,,,,,,,,,,OSSLC,,,,,,,,,,,,
-,,,,,,,,,,,(All,,,,,,,,,,,,
-,,,,,,,,,,,Previously,,,,,,,,,,,,
-,,,,,,,,,,,Eligible,,,,,,,,,,,,
-,,,,,,,,,,,Students),,,,,,,,,,,,
-Northern Secondary School,451,,,3%,,,1%,,,<1%,,,429,,,91%,,,9%,,,,
-Northview Heights Secondary School,364,,,3%,,,2%,,,0%,,,345,,,84%,,,16%,,,,
-Oakwood Collegiate Institute,65,,,2%,,,12%,,,0%,,,55,,,82%,,,18%,,,,
-Oasis Alternative Secondary School,52,,,40%,,,0%,,,0%,,,31,,,65%,,,35%,,,,
-Parkdale Collegiate Institute,163,,,8%,,,0%,,,0%,,,148,,,88%,,,12%,,,,
-Parkview Alternative School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-R H King Academy,303,,,8%,,,0%,,,0%,,,280,,,88%,,,12%,,,,
-Richview Collegiate Institute,319,,,5%,,,0%,,,0%,,,304,,,92%,,,8%,,,,
-Riverdale Collegiate Institute,387,,,3%,,,0%,,,0%,,,374,,,94%,,,6%,,,,
-Rosedale Heights School of the Arts,244,,,5%,,,0%,,,0%,,,232,,,98%,,,2%,,,,
-Runnymede Collegiate Institute,121,,,21%,,,0%,,,0%,,,96,,,78%,,,22%,,,,
-SATEC @ WA Porter Collegiate Institute,328,,,7%,,,0%,,,0%,,,303,,,91%,,,9%,,,,
-Scarborough Centre for Alternative Studies,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-School of Experiential Education,40,,,25%,,,25%,,,0%,,,18,,,11%,,,89%,,,,
-School of Life Experience,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-SEED Alternative School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Silverthorn Collegiate Institute,215,,,4%,,,0%,,,0%,,,206,,,84%,,,16%,,,,
-Sir John A Macdonald Collegiate Institute,274,,,7%,,,1%,,,0%,,,253,,,87%,,,13%,,,,
-Sir Oliver Mowat Collegiate Institute,253,,,6%,,,0%,,,0%,,,236,,,89%,,,11%,,,,
-Sir Wilfrid Laurier Collegiate Institute,365,,,9%,,,0%,,,0%,,,328,,,81%,,,19%,,,,
-Sir William Osler High School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-South East Secondary Alternative School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-School Name,"Number of
-Previously
-Eligible
-Students",,,"Absent
-(All
-Previously
-Eligible
-Students)",,,"Deferred
-(All
-Previously
-Eligible
-Students)",,,,Taking,,"Number of
-Fully
-Participating
-Students",,,"Successful
-(Fully
-Participating)",,,"Not
-Successful
-(Fully
-Participating)",,,,
-,,,,,,,,,,,OSSLC,,,,,,,,,,,,
-,,,,,,,,,,,(All,,,,,,,,,,,,
-,,,,,,,,,,,Previously,,,,,,,,,,,,
-,,,,,,,,,,,Eligible,,,,,,,,,,,,
-,,,,,,,,,,,Students),,,,,,,,,,,,
-Stephen Leacock Collegiate Institute,131,,,3%,,,9%,,,0%,,,114,,,70%,,,30%,,,,
-Subway Academy I,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Subway Academy II,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-THESTUDENTSCHOOL,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-Thistletown Collegiate Institute,120,,,23%,,,0%,,,0%,,,87,,,77%,,,23%,,,,
-Ursula Franklin Academy,111,,,2%,,,3%,,,0%,,,106,,,100%,,,0%,,,,
-Victoria Park Collegiate Institute,302,,,19%,,,2%,,,0%,,,239,,,82%,,,18%,,,,
-West End Alternative School,15,,,7%,,,27%,,,0%,,,10,,,50%,,,50%,,,,
-West Hill Collegiate Institute,230,,,16%,,,0%,,,0%,,,193,,,77%,,,23%,,,,
-West Humber Collegiate Institute,256,,,12%,,,0%,,,0%,,,226,,,83%,,,17%,,,,
-Western Technical-Commercial School,252,,,5%,,,6%,,,1%,,,221,,,89%,,,11%,,,,
-Weston Collegiate Institute,291,,,18%,,,0%,,,0%,,,237,,,76%,,,24%,,,,
-Westview Centennial Secondary School,160,,,26%,,,0%,,,1%,,,112,,,54%,,,46%,,,,
-Wexford Collegiate School for the Arts,257,,,4%,,,0%,,,0%,,,245,,,86%,,,14%,,,,
-William Lyon Mackenzie Collegiate Institute,329,,,4%,,,4%,,,0%,,,304,,,94%,,,6%,,,,
-Winston Churchill Collegiate Institute,173,,,16%,,,20%,,,2%,,,104,,,70%,,,30%,,,,
-Woburn Collegiate Institute,247,,,5%,,,0%,,,0%,,,234,,,82%,,,18%,,,,
-York Humber High School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
-York Memorial Collegiate Institute,210,,,<1%,,,3%,,,0%,,,203,,,83%,,,17%,,,,
-York Mills Collegiate Institute,258,,,5%,,,1%,,,0%,,,242,,,92%,,,8%,,,,
-Yorkdale Secondary School,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,N/R,,,
+School (Sec)",19,19,19,19,19
+Kipling Collegiate Institute,171,171,171,171,171
+Lakeshore Collegiate Institute,154,154,154,154,154
+L'Amoreaux Collegiate Institute,124,124,124,124,124
+Lawrence Park Collegiate Institute,313,313,313,313,313
+Leaside High School,270,270,270,270,270
+Lester B Pearson Collegiate Institute,294,294,294,294,294
+Malvern Collegiate Institute,272,272,272,272,272
+Maplewood High School,,,,,
+Marc Garneau Collegiate Institute,458,458,458,458,458
+Martingrove Collegiate Institute,237,237,237,237,237
+Monarch Park Collegiate Institute,215,215,215,215,215
+Native Learning Centre East,,,,,
+Newtonbrook Secondary School,196,196,196,196,196
+North Albion Collegiate Institute,199,199,199,199,199
+North Toronto Collegiate Institute,357,357,357,357,357
+North West Secondary Alternative School,,,,,
+Northern Secondary School,451,451,451,451,451
+Northview Heights Secondary School,364,364,364,364,364
+Oakwood Collegiate Institute,65,65,65,65,65
+Oasis Alternative Secondary School,52,52,52,52,52
+Parkdale Collegiate Institute,163,163,163,163,163
+Parkview Alternative School,,,,,
+R H King Academy,303,303,303,303,303
+Richview Collegiate Institute,319,319,319,319,319
+Riverdale Collegiate Institute,387,387,387,387,387
+Rosedale Heights School of the Arts,244,244,244,244,244
+Runnymede Collegiate Institute,121,121,121,121,121
+SATEC @ WA Porter Collegiate Institute,328,328,328,328,328
+Scarborough Centre for Alternative Studies,,,,,
+School of Experiential Education,40,40,40,40,40
+School of Life Experience,,,,,
+SEED Alternative School,,,,,
+Silverthorn Collegiate Institute,215,215,215,215,215
+Sir John A Macdonald Collegiate Institute,274,274,274,274,274
+Sir Oliver Mowat Collegiate Institute,253,253,253,253,253
+Sir Wilfrid Laurier Collegiate Institute,365,365,365,365,365
+Sir William Osler High School,,,,,
+South East Secondary Alternative School,,,,,
+Stephen Leacock Collegiate Institute,131,131,131,131,131
+Subway Academy I,,,,,
+Subway Academy II,,,,,
+THESTUDENTSCHOOL,,,,,
+Thistletown Collegiate Institute,120,120,120,120,120
+Ursula Franklin Academy,111,111,111,111,111
+Victoria Park Collegiate Institute,302,302,302,302,302
+West End Alternative School,15,15,15,15,15
+West Hill Collegiate Institute,230,230,230,230,230
+West Humber Collegiate Institute,256,256,256,256,256
+Western Technical-Commercial School,252,252,252,252,252
+Weston Collegiate Institute,291,291,291,291,291
+Westview Centennial Secondary School,160,160,160,160,160
+Wexford Collegiate School for the Arts,257,257,257,257,257
+William Lyon Mackenzie Collegiate Institute,329,329,329,329,329
+Winston Churchill Collegiate Institute,173,173,173,173,173
+Woburn Collegiate Institute,247,247,247,247,247
+York Humber High School,,,,,
+York Memorial Collegiate Institute,210,210,210,210,210
+York Mills Collegiate Institute,258,258,258,258,258
+Yorkdale Secondary School,,,,,
