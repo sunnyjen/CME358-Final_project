@@ -1,0 +1,477 @@
+,Neighbourhood,Type,Count
+0,Agincourt North,Condo Apt,8
+1,Agincourt North,Condo Townhouse,3
+2,Agincourt North,Detached,16
+3,Agincourt South-Malvern West,Condo Apt,12
+4,Agincourt South-Malvern West,Detached,18
+5,Agincourt South-Malvern West,Land,1
+6,Agincourt South-Malvern West,Semi-Detached,1
+7,Alderwood,Co-Op Apt,2
+8,Alderwood,Condo Townhouse,2
+9,Alderwood,Detached,28
+10,Annex,Condo Apt,25
+11,Annex,Condo Townhouse,1
+12,Annex,Detached,8
+13,Annex,Freehold Townhouse,3
+14,Annex,Semi-Detached,3
+15,Avondale,Condo Apt,14
+16,Avondale,Condo Townhouse,5
+17,Avondale,Detached,12
+18,Banbury-Don Mills,Co-Ownership Apt,1
+19,Banbury-Don Mills,Condo Apt,20
+20,Banbury-Don Mills,Detached,35
+21,Banbury-Don Mills,Freehold Townhouse,3
+22,Bathurst Manor,Condo Apt,10
+23,Bathurst Manor,Detached,14
+24,Bathurst Manor,Link,2
+25,Bay-Cloverhill,Condo Apt,19
+26,Bay-Cloverhill,Freehold Townhouse,1
+27,Bayview Village,Condo Apt,40
+28,Bayview Village,Condo Townhouse,6
+29,Bayview Village,Detached,27
+30,Bayview Woods-Steeles,Condo Apt,3
+31,Bayview Woods-Steeles,Condo Townhouse,2
+32,Bayview Woods-Steeles,Detached,15
+33,Bayview Woods-Steeles,Semi-Detached,3
+34,Bedford Park-Nortown,Condo Apt,6
+35,Bedford Park-Nortown,Detached,43
+36,Beechborough-Greenbrook,Condo Townhouse,1
+37,Beechborough-Greenbrook,Detached,6
+38,Bendale South,Detached,15
+39,Bendale-Glen Andrew,Condo Apt,9
+40,Bendale-Glen Andrew,Condo Townhouse,4
+41,Bendale-Glen Andrew,Detached,9
+42,Bendale-Glen Andrew,Semi-Detached,2
+43,Birchcliffe-Cliffside,Condo Apt,5
+44,Birchcliffe-Cliffside,Detached,44
+45,Birchcliffe-Cliffside,Investment,1
+46,Birchcliffe-Cliffside,Semi-Detached,1
+47,Black Creek,Condo Apt,4
+48,Black Creek,Condo Townhouse,1
+49,Black Creek,Detached,5
+50,Black Creek,Semi-Detached,1
+51,Blake-Jones,Condo Apt,3
+52,Blake-Jones,Condo Townhouse,2
+53,Blake-Jones,Detached,7
+54,Blake-Jones,Freehold Townhouse,1
+55,Blake-Jones,Semi-Detached,3
+56,Briar Hill-Belgravia,Condo Apt,2
+57,Briar Hill-Belgravia,Detached,11
+58,Bridle Path-Sunnybrook-York Mills,Condo Apt,2
+59,Bridle Path-Sunnybrook-York Mills,Detached,48
+60,Broadview North,Condo Apt,2
+61,Broadview North,Detached,13
+62,Broadview North,Freehold Townhouse,1
+63,Broadview North,Semi-Detached,1
+64,Brookhaven-Amesbury,Condo Apt,9
+65,Brookhaven-Amesbury,Condo/Apt Unit,1
+66,Brookhaven-Amesbury,Detached,16
+67,Caledonia-Fairbank,Detached,15
+68,Casa Loma,Condo Apt,4
+69,Casa Loma,Detached,21
+70,Casa Loma,Semi-Detached,1
+71,Centennial Scarborough,Detached,23
+72,Centennial Scarborough,Freehold Townhouse,3
+73,Centennial Scarborough,Investment,1
+74,Centennial Scarborough,Semi-Detached,1
+75,Church-Wellesley,Co-Ownership Apt,1
+76,Church-Wellesley,Condo Apt,28
+77,Clairlea-Birchmount,Condo Apt,1
+78,Clairlea-Birchmount,Detached,26
+79,Clairlea-Birchmount,Freehold Townhouse,6
+80,Clairlea-Birchmount,Semi-Detached,2
+81,Clanton Park,Condo Apt,11
+82,Clanton Park,Detached,15
+83,Cliffcrest,Detached,42
+84,Cliffcrest,Freehold Townhouse,2
+85,Cliffcrest,Semi-Detached,2
+86,Corso Italia-Davenport,Detached,11
+87,Corso Italia-Davenport,Semi-Detached,8
+88,Danforth,Condo Apt,1
+89,Danforth,Detached,8
+90,Danforth,Freehold Townhouse,2
+91,Danforth,Semi-Detached,7
+92,Don Valley Village,Condo Apt,12
+93,Don Valley Village,Detached,15
+94,Dorset Park,Condo Apt,13
+95,Dorset Park,Detached,13
+96,Dovercourt Village,Condo Apt,2
+97,Dovercourt Village,Detached,11
+98,Dovercourt Village,Duplex,1
+99,Dovercourt Village,Semi-Detached,2
+100,Dovercourt Village,Triplex,2
+101,Downsview,Condo Apt,7
+102,Downsview,Condo Townhouse,1
+103,Downsview,Detached,16
+104,Downsview,Freehold Townhouse,1
+105,Downtown Yonge East,Condo Apt,16
+106,Downtown Yonge East,Condo Townhouse,3
+107,Dufferin Grove,Detached,3
+108,Dufferin Grove,Freehold Townhouse,3
+109,Dufferin Grove,Semi-Detached,5
+110,Dufferin Grove,Triplex,1
+111,East L'Amoreaux,Condo Apt,6
+112,East L'Amoreaux,Condo Townhouse,2
+113,East L'Amoreaux,Detached,4
+114,East L'Amoreaux,Freehold Townhouse,2
+115,East Willowdale,Condo Apt,4
+116,East Willowdale,Detached,42
+117,East Willowdale,Freehold Townhouse,1
+118,Edenbridge-Humber Valley,Co-Op Apt,1
+119,Edenbridge-Humber Valley,Condo Apt,18
+120,Edenbridge-Humber Valley,Detached,19
+121,Eglinton East,Condo Townhouse,1
+122,Eglinton East,Detached,8
+123,Elms-Old Rexdale,Condo Apt,2
+124,Elms-Old Rexdale,Condo Townhouse,1
+125,Elms-Old Rexdale,Detached,7
+126,Englemount-Lawrence,Condo Apt,7
+127,Englemount-Lawrence,Detached,12
+128,Eringate-Centennial-West Deane,Condo Apt,4
+129,Eringate-Centennial-West Deane,Condo Townhouse,2
+130,Eringate-Centennial-West Deane,Detached,13
+131,Etobicoke City Centre,Condo Apt,39
+132,Etobicoke City Centre,Condo Townhouse,4
+133,Etobicoke City Centre,Detached,6
+134,Etobicoke City Centre,Freehold Townhouse,1
+135,Etobicoke City Centre,Semi-Detached,1
+136,Etobicoke West Mall,Condo Apt,10
+137,Etobicoke West Mall,Condo Townhouse,1
+138,Etobicoke West Mall,Detached,4
+139,Fenside-Parkwoods,Condo Apt,4
+140,Fenside-Parkwoods,Detached,2
+141,Fenside-Parkwoods,Semi-Detached,4
+142,Flemingdon Park,Condo Apt,8
+143,Flemingdon Park,Condo Townhouse,1
+144,Forest Hill North,Detached,6
+145,Forest Hill South,Co-Ownership Apt,1
+146,Forest Hill South,Condo Apt,6
+147,Forest Hill South,Detached,36
+148,Fort York-Liberty Village,Condo Apt,47
+149,Fort York-Liberty Village,Condo Townhouse,5
+150,Fort York-Liberty Village,Condo/Apt Unit,1
+151,Glenfield-Jane Heights,Condo Apt,3
+152,Glenfield-Jane Heights,Detached,2
+153,Glenfield-Jane Heights,Semi-Detached,5
+154,Golfdale-Cedarbrae-Woburn,Condo Apt,4
+155,Golfdale-Cedarbrae-Woburn,Detached,25
+156,Greenwood-Coxwell,Condo Apt,3
+157,Greenwood-Coxwell,Detached,12
+158,Greenwood-Coxwell,Freehold Townhouse,1
+159,Greenwood-Coxwell,Semi-Detached,8
+160,Guildwood,Condo Apt,1
+161,Guildwood,Condo Townhouse,3
+162,Guildwood,Detached,14
+163,Harbourfront-CityPlace,Condo Apt,50
+164,Henry Farm,Condo Apt,35
+165,Henry Farm,Condo Townhouse,2
+166,Henry Farm,Detached,2
+167,Henry Farm,Parking Space,1
+168,High Park North,Condo Apt,6
+169,High Park North,Condo/Apt Unit,2
+170,High Park North,Detached,8
+171,High Park North,Semi-Detached,3
+172,High Park-Swansea,Condo Apt,13
+173,High Park-Swansea,Detached,16
+174,Highland Creek,Detached,25
+175,Highland Creek,Freehold Townhouse,1
+176,Hillcrest Village,Condo Apt,3
+177,Hillcrest Village,Condo Townhouse,2
+178,Hillcrest Village,Detached,12
+179,Hillcrest Village,Semi-Detached,2
+180,Humber Bay Shores,Condo Apt,34
+181,Humber Bay Shores,Condo Townhouse,2
+182,Humber Heights-Westmount,Condo Apt,6
+183,Humber Heights-Westmount,Detached,12
+184,Humber Summit,Condo Apt,1
+185,Humber Summit,Detached,6
+186,Humber Summit,Semi-Detached,9
+187,Humbermede,Condo Townhouse,1
+188,Humbermede,Detached,8
+189,Humbermede,Semi-Detached,5
+190,Humewood-Cedarvale,Condo Apt,1
+191,Humewood-Cedarvale,Detached,9
+192,Humewood-Cedarvale,Semi-Detached,3
+193,Ionview,Detached,4
+194,Ionview,Freehold Townhouse,1
+195,Ionview,Semi-Detached,1
+196,Islington,Condo Apt,8
+197,Islington,Condo Townhouse,1
+198,Islington,Detached,25
+199,Junction Area,Condo Apt,6
+200,Junction Area,Detached,7
+201,Junction Area,Duplex,1
+202,Junction Area,Semi-Detached,1
+203,Junction-Wallace Emerson,Condo Apt,3
+204,Junction-Wallace Emerson,Condo Townhouse,3
+205,Junction-Wallace Emerson,Detached,8
+206,Junction-Wallace Emerson,Freehold Townhouse,5
+207,Junction-Wallace Emerson,Semi-Detached,6
+208,Keelesdale-Eglinton West,Condo Apt,1
+209,Keelesdale-Eglinton West,Detached,17
+210,Keelesdale-Eglinton West,Freehold Townhouse,1
+211,Keelesdale-Eglinton West,Semi-Detached,2
+212,Kennedy Park,Condo Apt,5
+213,Kennedy Park,Detached,16
+214,Kennedy Park,Semi-Detached,1
+215,Kensington-Chinatown,Condo Apt,11
+216,Kensington-Chinatown,Detached,1
+217,Kensington-Chinatown,Freehold Townhouse,1
+218,Kingsview Village-The Westway,Condo Apt,5
+219,Kingsview Village-The Westway,Detached,11
+220,Kingsway South,Condo Apt,2
+221,Kingsway South,Detached,21
+222,L'Amoreaux West,Condo Apt,7
+223,L'Amoreaux West,Condo Townhouse,2
+224,L'Amoreaux West,Detached,8
+225,L'Amoreaux West,Semi-Detached,1
+226,Lambton Baby Point,Detached,12
+227,Lambton Baby Point,Semi-Detached,4
+228,Lansing-Westgate,Condo Apt,13
+229,Lansing-Westgate,Detached,32
+230,Lawrence Park North,Condo Apt,1
+231,Lawrence Park North,Detached,25
+232,Lawrence Park North,Semi-Detached,5
+233,Lawrence Park South,Detached,32
+234,Leaside-Bennington,Condo Townhouse,1
+235,Leaside-Bennington,Detached,19
+236,Leaside-Bennington,Semi-Detached,5
+237,Little Portugal,Condo Apt,12
+238,Little Portugal,Condo Townhouse,3
+239,Little Portugal,Detached,10
+240,Little Portugal,Semi-Detached,1
+241,Long Branch,Condo Townhouse,9
+242,Long Branch,Detached,8
+243,Long Branch,Freehold Townhouse,1
+244,Malvern East,Condo Apt,4
+245,Malvern East,Condo Townhouse,8
+246,Malvern East,Detached,10
+247,Malvern East,Freehold Townhouse,2
+248,Malvern East,Link,2
+249,Malvern East,Semi-Detached,5
+250,Malvern West,Condo Apt,3
+251,Malvern West,Condo Townhouse,4
+252,Malvern West,Detached,4
+253,Maple Leaf,Detached,11
+254,Markland Wood,Condo Apt,2
+255,Markland Wood,Condo Townhouse,1
+256,Markland Wood,Detached,14
+257,Milliken,Condo Apt,4
+258,Milliken,Detached,20
+259,Milliken,Link,1
+260,Mimico-Queensway,Condo Apt,13
+261,Mimico-Queensway,Condo Townhouse,4
+262,Mimico-Queensway,Detached,13
+263,Mimico-Queensway,Freehold Townhouse,3
+264,Mimico-Queensway,Semi-Detached,3
+265,Mimico-Queensway,Store W/Apt/Office,1
+266,Morningside,Condo Apt,1
+267,Morningside,Condo Townhouse,2
+268,Morningside,Detached,13
+269,Morningside Heights,Condo Townhouse,4
+270,Morningside Heights,Detached,16
+271,Moss Park,Condo Apt,36
+272,Moss Park,Condo Townhouse,2
+273,Moss Park,Detached,2
+274,Moss Park,Freehold Townhouse,6
+275,Moss Park,Multiplex,1
+276,Moss Park,Office,1
+277,Mount Dennis,Condo Townhouse,1
+278,Mount Dennis,Detached,5
+279,Mount Olive-Silverstone-Jamestown,Condo Apt,14
+280,Mount Olive-Silverstone-Jamestown,Detached,20
+281,Mount Olive-Silverstone-Jamestown,Semi-Detached,3
+282,Mount Pleasant East,Co-Op Apt,2
+283,Mount Pleasant East,Commercial/Retail,1
+284,Mount Pleasant East,Detached,16
+285,Mount Pleasant East,Semi-Detached,7
+286,New Toronto,Condo Apt,3
+287,New Toronto,Condo Townhouse,1
+288,New Toronto,Detached,5
+289,New Toronto,Semi-Detached,1
+290,New Toronto,Triplex,1
+291,Newtonbrook East,Condo Apt,18
+292,Newtonbrook East,Detached,30
+293,Newtonbrook East,Freehold Townhouse,1
+294,Newtonbrook West,Condo Apt,12
+295,Newtonbrook West,Condo Townhouse,2
+296,Newtonbrook West,Detached,24
+297,Newtonbrook West,Semi-Detached,4
+298,North Riverdale,Detached,3
+299,North Riverdale,Semi-Detached,4
+300,North Toronto,Condo Apt,21
+301,Oakdale-Beverley Heights,Condo Apt,1
+302,Oakdale-Beverley Heights,Detached,15
+303,Oakridge,Detached,6
+304,Oakwood Village,Condo Apt,1
+305,Oakwood Village,Detached,30
+306,Oakwood Village,Duplex,2
+307,Oakwood Village,Investment,1
+308,Oakwood Village,Semi-Detached,6
+309,Old East York,Detached,28
+310,Outside City,Apartment Unit,1
+311,Outside City,Co-Op Apt,1
+312,Outside City,Condo Apt,397
+313,Outside City,Condo Townhouse,120
+314,Outside City,Condo/Apt Unit,6
+315,Outside City,Det Condo,2
+316,Outside City,Detached,916
+317,Outside City,Freehold Townhouse,161
+318,Outside City,Link,33
+319,Outside City,Row/Townhouse,1
+320,Outside City,Semi-Detached,114
+321,Outside City,Single Family Residence,2
+322,Outside City,Vacant Land,1
+323,Palmerston-Little Italy,Condo Apt,1
+324,Palmerston-Little Italy,Detached,6
+325,Palmerston-Little Italy,Semi-Detached,7
+326,Parkwoods-O'Connor Hills,Detached,24
+327,Pelmo Park-Humberlea,Condo Townhouse,4
+328,Pelmo Park-Humberlea,Detached,18
+329,Playter Estates-Danforth,Detached,5
+330,Playter Estates-Danforth,Semi-Detached,1
+331,Pleasant View,Condo Apt,2
+332,Pleasant View,Detached,9
+333,Pleasant View,Link,1
+334,Pleasant View,Semi-Detached,4
+335,Princess-Rosethorn,Detached,35
+336,Regent Park,Condo Apt,10
+337,Regent Park,Freehold Townhouse,1
+338,Rexdale-Kipling,Condo Townhouse,1
+339,Rexdale-Kipling,Detached,17
+340,Rockcliffe-Smythe,Condo Apt,7
+341,Rockcliffe-Smythe,Condo/Apt Unit,1
+342,Rockcliffe-Smythe,Detached,17
+343,Rockcliffe-Smythe,Semi-Detached,6
+344,Roncesvalles,Condo Apt,1
+345,Roncesvalles,Detached,4
+346,Roncesvalles,Semi-Detached,8
+347,Rosedale-Moore Park,Co-Op Apt,5
+348,Rosedale-Moore Park,Condo Apt,13
+349,Rosedale-Moore Park,Detached,28
+350,Rosedale-Moore Park,Semi-Detached,4
+351,Runnymede-Bloor West Village,Detached,5
+352,Runnymede-Bloor West Village,Semi-Detached,1
+353,Rustic,Detached,9
+354,Rustic,Semi-Detached,1
+355,Scarborough Village,Condo Apt,4
+356,Scarborough Village,Detached,10
+357,South Eglinton-Davisville,Condo Apt,31
+358,South Eglinton-Davisville,Condo Townhouse,1
+359,South Eglinton-Davisville,Detached,3
+360,South Eglinton-Davisville,Duplex,1
+361,South Parkdale,Condo Apt,9
+362,South Parkdale,Condo Townhouse,4
+363,South Parkdale,Detached,7
+364,South Parkdale,Investment,1
+365,South Riverdale,Condo Apt,24
+366,South Riverdale,Condo Townhouse,7
+367,South Riverdale,Detached,7
+368,South Riverdale,Freehold Townhouse,1
+369,South Riverdale,Parking Space,2
+370,South Riverdale,Semi-Detached,12
+371,St Lawrence-East Bayfront-The Islands,Condo Apt,62
+372,St Lawrence-East Bayfront-The Islands,Parking Space,2
+373,St.Andrew-Windfields,Condo Apt,1
+374,St.Andrew-Windfields,Condo Townhouse,2
+375,St.Andrew-Windfields,Detached,71
+376,Steeles,Condo Apt,8
+377,Steeles,Condo Townhouse,1
+378,Steeles,Detached,8
+379,Steeles,Freehold Townhouse,2
+380,Steeles,Link,1
+381,Stonegate-Queensway,Condo Apt,6
+382,Stonegate-Queensway,Condo Townhouse,1
+383,Stonegate-Queensway,Detached,38
+384,Stonegate-Queensway,Freehold Townhouse,4
+385,Stonegate-Queensway,Semi-Detached,2
+386,Tam O'Shanter-Sullivan,Condo Apt,9
+387,Tam O'Shanter-Sullivan,Condo Townhouse,1
+388,Tam O'Shanter-Sullivan,Detached,10
+389,The Beaches,Condo Apt,8
+390,The Beaches,Detached,13
+391,The Beaches,Freehold Townhouse,1
+392,The Beaches,Semi-Detached,8
+393,Thistletown-Beaumond Heights,Detached,10
+394,Thorncliffe Park,Condo Apt,12
+395,Thorncliffe Park,Condo Townhouse,2
+396,Trinity-Bellwoods,Commercial/Retail,1
+397,Trinity-Bellwoods,Condo Apt,3
+398,Trinity-Bellwoods,Condo Townhouse,2
+399,Trinity-Bellwoods,Detached,8
+400,Trinity-Bellwoods,Freehold Townhouse,2
+401,Trinity-Bellwoods,Investment,1
+402,Trinity-Bellwoods,Semi-Detached,9
+403,University,Condo Apt,4
+404,University,Detached,3
+405,University,Freehold Townhouse,1
+406,Victoria Village,Condo Apt,9
+407,Victoria Village,Detached,6
+408,Wellington Place,Condo Apt,85
+409,Wellington Place,Condo Townhouse,2
+410,West Hill,Condo Apt,5
+411,West Hill,Condo Townhouse,1
+412,West Hill,Detached,22
+413,West Hill,Freehold Townhouse,2
+414,West Hill,Vacant Land,1
+415,West Humber-Clairville,Att/Row/Twnhouse,1
+416,West Humber-Clairville,Condo Apt,5
+417,West Humber-Clairville,Condo Townhouse,1
+418,West Humber-Clairville,Detached,15
+419,West Queen West,Att/Row/Twnhouse,1
+420,West Queen West,Condo Apt,18
+421,West Queen West,Condo Townhouse,11
+422,West Queen West,Detached,4
+423,West Queen West,Freehold Townhouse,2
+424,West Rouge,Condo Apt,2
+425,West Rouge,Condo Townhouse,5
+426,West Rouge,Detached,12
+427,Westminster-Branson,Condo Apt,16
+428,Westminster-Branson,Condo Townhouse,1
+429,Westminster-Branson,Detached,6
+430,Weston,Condo Apt,9
+431,Weston,Condo Townhouse,2
+432,Weston,Detached,15
+433,Weston,Freehold Townhouse,1
+434,Weston,Semi-Detached,2
+435,Weston,Store W/Apt/Office,1
+436,Weston-Pelham Park,Condo Apt,10
+437,Weston-Pelham Park,Detached,8
+438,Weston-Pelham Park,Land,1
+439,Weston-Pelham Park,Semi-Detached,4
+440,Wexford/Maryvale,Condo Apt,6
+441,Wexford/Maryvale,Detached,38
+442,Willowdale West,Condo Apt,18
+443,Willowdale West,Detached,28
+444,Willowridge-Martingrove-Richview,Condo Apt,3
+445,Willowridge-Martingrove-Richview,Condo Townhouse,2
+446,Willowridge-Martingrove-Richview,Detached,30
+447,Willowridge-Martingrove-Richview,Semi-Detached,1
+448,Woburn North,Condo Apt,12
+449,Woburn North,Condo Townhouse,1
+450,Woburn North,Detached,16
+451,Woburn North,Semi-Detached,2
+452,Woodbine Corridor,Detached,4
+453,Woodbine Corridor,Semi-Detached,8
+454,Woodbine-Lumsden,Detached,19
+455,Woodbine-Lumsden,Semi-Detached,1
+456,Wychwood,Condo Apt,1
+457,Wychwood,Detached,7
+458,Wychwood,Freehold Townhouse,5
+459,Wychwood,Semi-Detached,11
+460,Wychwood,Store W/Apt/Office,1
+461,Yonge-Bay Corridor,Condo Apt,16
+462,Yonge-Doris,Condo Apt,34
+463,Yonge-Doris,Detached,2
+464,Yonge-Eglinton,Condo Apt,2
+465,Yonge-Eglinton,Condo Townhouse,1
+466,Yonge-Eglinton,Detached,17
+467,Yonge-Eglinton,Freehold Townhouse,1
+468,Yonge-Eglinton,Semi-Detached,3
+469,York University Heights,Condo Apt,8
+470,York University Heights,Detached,8
+471,York University Heights,Semi-Detached,3
+472,Yorkdale-Glen Park,Condo Apt,4
+473,Yorkdale-Glen Park,Condo Townhouse,4
+474,Yorkdale-Glen Park,Detached,18
+475,Yorkdale-Glen Park,Investment,1
