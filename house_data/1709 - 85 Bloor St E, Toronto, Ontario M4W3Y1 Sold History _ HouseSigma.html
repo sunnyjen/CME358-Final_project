@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html data-theme="default">
+
+<head>
+  <script type="module" src="/assets/polyfills-modern.e51111ae.js"></script>
+
+  <meta charset="utf-8" />
+  <!-- <base href="/app/"/> -->
+
+  <title>HouseSigma</title>
+
+  <meta name="author" content="HouseSigma, Inc. Brokerage">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=1">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" href="/favicon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#28a3b3">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preconnect" href="https://static.housesigma.com/" crossorigin />
+  <link rel="preconnect" href="https://api.mapbox.com/" crossorigin />
+  <link rel="preconnect" href="https://www.googletagmanager.com/" crossorigin>
+  <link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>
+  <link rel="preconnect" href="https://accounts.google.com/" crossorigin>
+  <link rel="dns-prefetch" href="https://housesigma.com/">
+  <link rel="dns-prefetch" href="https://static.housesigma.com/">
+  <link rel="dns-prefetch" href="https://api.mapbox.com/">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com/">
+  <link rel="dns-prefetch" href="https://accounts.google.com/">
+
+  <!-- Web Font Preload  -->
+  <link rel="preload" as="font" crossorigin="anonymous" type="font/woff2"
+    href="https://static.housesigma.com/fonts/poppins/woff2-cut/Poppins-Regular.woff2">
+  <link rel="preload" as="font" crossorigin="anonymous" type="font/woff2"
+    href="https://static.housesigma.com/fonts/poppins/woff2-cut/Poppins-Medium.woff2">
+  <link rel="preload" as="font" crossorigin="anonymous" type="font/woff2"
+    href="https://static.housesigma.com/fonts/poppins/woff2-cut/Poppins-SemiBold.woff2">
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <link rel='stylesheet' href='https://static.housesigma.com/library/maplibre/maplibre-gl.3.3.1.css' />
+
+  <!-- Google tag (gtag.js) -->
+  
+        <script>
+          (function() {
+            var headless = !!window.navigator.webdriver;
+            var s = document.createElement('script');
+            var f = document.getElementsByTagName('script')[0];
+            s.async = true;
+            s.src = "https://www.googletagmanager.com/gtag/js?id=G-F0Q0PBWRYB";
+            if (!headless) f.parentNode.insertBefore(s, f);
+          })()
+        </script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-F0Q0PBWRYB', { send_page_view: false, debug_mode: false });
+        </script>
+      
+
+  <!-- Microsoft clarity -->
+  
+      <script>
+        function clarity(){}
+      </script>
+      
+
+  <script>
+    // App share
+    // Default handler
+    window.getResourceForShare = function () {
+      console.log('getResourceForShare from index.html')
+      return {
+        title: document.title,
+        url: location.href
+      }
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "name": "HouseSigma",
+        "description": "HouseSigma offers the most complete data in Canada to help you make better real estate decisions. Buy, sell, rent. View sales history, market reports, and more.",
+        "url": "https://housesigma.com/",
+        "sameAs": [
+          "https://www.facebook.com/housesigma/",
+          "https://ca.linkedin.com/company/housesigma",
+          "https://twitter.com/HouseSigmaAI",
+          "https://reddit.com/r/HouseSigma/",
+          "https://www.instagram.com/housesigma/"
+        ]
+    }
+    </script>
+  <script type="module" crossorigin src="/assets/index.3aff9936.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.f53b5ef3.js">
+  <link rel="modulepreload" href="/assets/lodash.6e4bef40.js">
+  <link rel="modulepreload" href="/assets/swiper.67382ff3.js">
+  <link rel="stylesheet" href="/assets/style.903f619a.css">
+</head>
+
+<body>
+  <div id="app"></div>
+
+  
+</body>
+</html>
