@@ -1,0 +1,15 @@
+0_raw_data
+-	Should be only csvs here of all the raw data we used
+1_data_extraction
+-	Only python and ipynb files on how data was extracted
+-	Files for how we scraped housesigma, zolo and realtor should be here!
+2_data_cleaning
+-	Only ipynb files here for cleaning the files
+-	Interim csv files can go here too
+-	Merging files can go here too
+3_final_data
+-	CSV files for after extraction, not cleaned. Cleaning should be done in a final pipeline in the ML ipynb
+4_EDA
+-	Exploring visualizations for the individual dataset 
+5_machine_learning
+-   Data cleaning pipeline and machine learning
