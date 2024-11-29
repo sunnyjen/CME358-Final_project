@@ -7,15 +7,7 @@ current_dir = Path.cwd()
 PHONE_NUMBER = "6473230251"
 PASSWORD = "Jenn2015"
 def extract_listings(html_content):
-    """
-    Extracts property listings from the given HTML content and returns a DataFrame.
 
-    Parameters:
-        html_content (str): The HTML content to parse.
-
-    Returns:
-        pd.DataFrame: A DataFrame containing the extracted property data.
-    """
     soup = BeautifulSoup(html_content, "html.parser")
     data = []
 
@@ -96,58 +88,106 @@ def login_to_site(page, phone_number, password):
             page.wait_for_selector(final_login_button_selector, timeout=10000)
             page.click(final_login_button_selector)
             # print("Final Log In button clicked.")
-
-# def page_through_and_extract(page):
-#         # Login and navigate to the desired URL
-#     url = "https://housesigma.com/on/toronto-real-estate/sold/map/?center_marker=43.6668217,-79.3535575&view=map&municipality=10343&status=sold&lat=43.713580&lon=-79.336830&zoom=9.8&page=1"
-#     page.goto(url)
-#     all_data = pd.DataFrame()
-    
-
-#     while True:
-#         # Wait for the page to load completely
-#         page.wait_for_load_state("networkidle")
-
-#         # Extract HTML content
-#         page_content = page.content()
-#         df = extract_listings(page_content)
-
-#         # Append data to the master DataFrame
-#         all_data = pd.concat([all_data, df], ignore_index=True)
+def navigate_to_url(page, url):
+    """Navigates to the specified URL."""
+    page.goto(url)
+    print(f"Navigated to URL: {url}")
 
 
-#         try:
-#             next_button = page.locator("span:has-text('>')")  # Adjust selector for the "next page" button
+def select_property_types(page, excluded_texts):
+    """Selects the desired property types, excluding certain options."""
+    page.locator('span.title:has-text("All property types")').click()
+    page.wait_for_timeout(5000)  # Wait for options to load
 
-#             # Scroll until the button is visible
-#             for _ in range(20):  # Set a maximum number of scroll attempts to avoid infinite loops
-#                 if next_button.is_visible():
-#                     break
-#                 # Scroll down the page
-#                 page.evaluate("window.scrollBy(0, 300)")  # Adjust scroll step as needed
-#                 page.wait_for_timeout(500)  # Add a small delay between scrolls
-
-#             if next_button.is_visible():
-#                 # Click the button to navigate to the next page
-#                 next_button.click()
-#                 # print("Navigated to the next page.")
-#             else:
-#                 # print("Next page button not found after scrolling.")
-#                 break  # Exit the loop if the button is not found
-#         except Exception as e:
-#             # print("No more pages or error navigating to next page:", e)
-#             break
+    house_types = page.locator('div.checkbox-item')
+    for i in range(house_types.count()):
+        p_text = house_types.nth(i).locator('p[data-v-3c33e202]').text_content().strip()
+        print(f"Found property type: {p_text}")
+        if all(excluded not in p_text for excluded in excluded_texts):
+            house_types.nth(i).click()
+            print(f"Selected property type: {p_text}")
 
 
-    
-#         if not all_data.empty:
-#             try:
-#                 all_data.to_csv("extracted_houses_housesigma.csv", index=False)
-#             except Exception as e:
-#                 print("Error saving data to CSV:")
-#         else:
-#             print("No data extracted. CSV file not created.")
+def select_time_frame(page):
+    """Selects a 90-day timeframe."""
+    dropdown_element = page.locator(
+        'div.app-dropdown-item-title.title.actived.text-align-undefined:has(span:has-text("90d"))'
+    )
+    dropdown_element.wait_for(state="visible")
+    dropdown_element.click()
+    print("Selected 90-day timeframe.")
 
+
+def iterate_years_and_extract_data(page):
+    """Iterates through available years and extracts listing data."""
+    all_data = pd.DataFrame()
+    year_elements = page.locator('div.app-single-option')
+
+    for i in range(year_elements.count()):
+        year_element = year_elements.nth(i)
+        year_text = year_element.locator('span.content').text_content().strip()
+        print(f"Processing year: {year_text}")
+
+        if year_text.startswith("Year"):
+            year_element.click()
+            print(f"Clicked year: {year_text}")
+            page.wait_for_timeout(500)  # Optional delay between clicks
+
+            all_data = extract_listings_from_pages(page, all_data, year_text)
+            dropdown_element = page.locator(
+            f'div.app-dropdown-item-title.title.actived.text-align-undefined:has(span:has-text("{year_text[-4]}"))')
+            dropdown_element.click()
+
+    return all_data
+
+
+def extract_listings_from_pages(page, all_data, year):
+    """Extracts listings from multiple pages for a given year."""
+    while True:
+        page.wait_for_load_state("networkidle")  # Ensure the page is fully loaded
+        page_content = page.content()
+        print(f"{year}")
+        df = extract_listings(page_content)  # Call to your existing extract_listings function
+
+        all_data = pd.concat([all_data, df], ignore_index=True)
+
+        try:
+            next_button = page.locator("span:has-text('>')")
+            if next_button.is_visible():
+                next_button.click()
+                print("Navigated to the next page.")
+            else:
+                print("No more pages to navigate.")
+                break
+        except Exception as e:
+            print(f"Error navigating pages: {e}")
+            break
+
+    save_data_to_csv(all_data, year)
+    return all_data
+
+
+def save_data_to_csv(data, year):
+    """Saves the extracted data to a CSV file."""
+    if not data.empty:
+        file_name = f"0_raw_data/house_data/extracted_houses_housesigma_{year}.csv"
+        data.to_csv(file_name, index=False)
+        print(f"Data saved to {file_name}.")
+    else:
+        print("No data to save.")
+
+
+def page_through_and_extract(page):
+    """Main function to extract data by navigating through pages."""
+    url = "https://housesigma.com/on/sold/map/?status=sold&lat=43.672262&lon=-79.298724&zoom=10.7"
+    excluded_texts = ["Condo Apt", "Multiplex", "Vacant Land", "Other"]
+
+    navigate_to_url(page, url)
+    select_property_types(page, excluded_texts)
+    select_time_frame(page)
+    all_data = iterate_years_and_extract_data(page)
+
+    print("Data extraction complete.")
 
 def get_data(link, page, save_dir, wait_time=5000, filename="page_content.html"):
 
@@ -244,22 +284,25 @@ def main():
         page.goto(url)
         login_to_site(page, PHONE_NUMBER, PASSWORD)
         #commenting out because this function has been ran
+
         # page_through_and_extract(page)
-        housing_data_df = pd.read_csv('house_data/link_hood_add.csv')
-        housing_data_df = housing_data_df[housing_data_df['link'].notna()]
-        housing_data_df = housing_data_df[housing_data_df['link'] != '']
-        print(housing_data_df.shape)
+        for year in range (2003,2024,1):
+            file_name = f"0_raw_data/house_data/extracted_houses_housesigma_Year {year}.csv"
+            output_file_name = f"0_raw_data/house_data/extracted_houses_housesigma_{year}_with_properties.csv"
+            housing_data_df = pd.read_csv(file_name)
+            housing_data_df = housing_data_df[housing_data_df['link'].notna()]
+            housing_data_df = housing_data_df[housing_data_df['link'] != '']
+            print(file_name)
 
-        mega_df = []
-        csv_path = current_dir/'properties_housesigma.csv'
-        for link in housing_data_df['link']:
-            html_data = get_data(link, page, current_dir, wait_time=5000, filename="page_content.html")
-            property_data = extract_property_data(html_data)
-            # Add the link to the extracted data
-            property_data['link'] = link
-            property_data_df = pd.DataFrame([property_data])
+            mega_df = []
 
-            property_data_df.to_csv(csv_path, mode='a', header=False, index=False, encoding="utf-8")
+            for link in housing_data_df['link']:
+                html_data = get_data(link, page, current_dir, wait_time=5000, filename="page_content.html")
+                property_data = extract_property_data(html_data)
+                # Add the link to the extracted data
+                property_data['link'] = link
+                property_data_df = pd.DataFrame([property_data])
+                property_data_df.to_csv(output_file_name, mode='a', header=False, index=False, encoding="utf-8")
 
 
  
