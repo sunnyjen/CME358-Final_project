@@ -35,6 +35,9 @@ def extract_listings(html_content):
         address_tag = listing.find("h3", class_="address")
         address = address_tag.text.strip() if address_tag else None
 
+        date_tag = listing.find("div", class_="date-preview")
+        date_text = date_tag.text.strip() if date_tag else None
+
         # Extract bedrooms, bathrooms, and garages
         bedrooms_tag = listing.find("p", string=lambda text: text and "bedroom" in text.lower())
         bedrooms = bedrooms_tag.text.split("-")[1].strip() if bedrooms_tag else None
@@ -52,6 +55,7 @@ def extract_listings(html_content):
             "sold_price": sold_price,
             "property_type": property_type,
             "address": address,
+            'date':date_text
         })
 
     # Return the extracted data as a DataFrame
@@ -285,25 +289,25 @@ def main():
         login_to_site(page, PHONE_NUMBER, PASSWORD)
         #commenting out because this function has been ran
 
-        # page_through_and_extract(page)
-        for year in range (2003,2024,1):
-            file_name = f"0_raw_data/house_data/extracted_houses_housesigma_Year {year}.csv"
-            output_file_name = f"0_raw_data/house_data/extracted_houses_housesigma_{year}_with_properties.csv"
-            housing_data_df = pd.read_csv(file_name)
-            housing_data_df = housing_data_df[housing_data_df['link'].notna()]
-            housing_data_df = housing_data_df[housing_data_df['link'] != '']
-            print(file_name)
+        page_through_and_extract(page)
+        # for year in range (2003,2024,1):
+        #     file_name = f"0_raw_data/house_data/extracted_houses_housesigma_Year {year}.csv"
+        #     output_file_name = f"0_raw_data/house_data/extracted_houses_housesigma_{year}_with_properties.csv"
+        #     housing_data_df = pd.read_csv(file_name)
+        #     housing_data_df = housing_data_df[housing_data_df['link'].notna()]
+        #     housing_data_df = housing_data_df[housing_data_df['link'] != '']
+        #     print(file_name)
 
-            mega_df = []
+        #     mega_df = []
 
-            for link in housing_data_df['link']:
-                html_data = get_data(link, page, current_dir, wait_time=5000, filename="page_content.html")
-                property_data = extract_property_data(html_data)
-                # Add the link to the extracted data
-                property_data['link'] = link
-                property_data_df = pd.DataFrame([property_data])
-                property_data_df.to_csv(output_file_name, mode='a', header=False, index=False, encoding="utf-8")
-                print(link)
+        #     for link in housing_data_df['link']:
+        #         html_data = get_data(link, page, current_dir, wait_time=5000, filename="page_content.html")
+        #         property_data = extract_property_data(html_data)
+        #         # Add the link to the extracted data
+        #         property_data['link'] = link
+        #         property_data_df = pd.DataFrame([property_data])
+        #         property_data_df.to_csv(output_file_name, mode='a', header=False, index=False, encoding="utf-8")
+        #         print(link)
 
 
  
