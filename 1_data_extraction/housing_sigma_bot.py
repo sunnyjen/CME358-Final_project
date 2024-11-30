@@ -303,6 +303,7 @@ def main():
                 property_data['link'] = link
                 property_data_df = pd.DataFrame([property_data])
                 property_data_df.to_csv(output_file_name, mode='a', header=False, index=False, encoding="utf-8")
+                print(link)
 
 
  
