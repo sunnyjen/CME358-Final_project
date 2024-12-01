@@ -183,7 +183,7 @@ def save_data_to_csv(data, year):
 
 def page_through_and_extract(page):
     """Main function to extract data by navigating through pages."""
-    url = "https://housesigma.com/on/sold/map/?status=sold&lat=43.672262&lon=-79.298724&zoom=10.7"
+    url = "https://housesigma.com/on/sold/map/?status=sold&lat=43.680521&lon=-79.457590&zoom=10.3"
     excluded_texts = ["Condo Apt", "Multiplex", "Vacant Land", "Other"]
 
     navigate_to_url(page, url)
